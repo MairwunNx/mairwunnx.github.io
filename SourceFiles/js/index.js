@@ -1,8 +1,10 @@
 if (document.readyState !== 'loading') {
+    let bottomArrow = document.getElementById('bottom-button')
     bottomArrow.addEventListener('click', function () {
         scrollPage('description')
     })
 } else {
+    let bottomArrow = document.getElementById('bottom-button')
     document.addEventListener('DOMContentLoaded', function () {
         bottomArrow.addEventListener('click', function () {
             scrollPage('description')
