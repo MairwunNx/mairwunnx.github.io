@@ -9,7 +9,6 @@ html, body  {
 .acrylic {
     display: flex;
     height: calc(var(--vh, 1vh) * 100);
-    /**height: 100vh;*/
     overflow: hidden;
     background-color: rgb(26, 26, 26);
     justify-content: baseline;
@@ -41,11 +40,12 @@ html, body  {
 }
 
 .acrtylic-center-content {
-    
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .avatar {
-    width: 100%;
     height: 350px;
     opacity: 0.60;
     z-index: 0;
@@ -56,6 +56,7 @@ html, body  {
     -o-filter: blur(8px);
     -ms-filter: blur(8px);
     align-self: center;
+    padding-right: 80px;
 }
 
 .nickname {
@@ -65,8 +66,8 @@ html, body  {
     position: relative;
     align-self: center;
     justify-self: center;
-    width: 100%;
     display: flex;
+    padding-left: 80px;
 }
 
 .bottom-arrow {
@@ -79,7 +80,6 @@ html, body  {
     user-select: none;
     cursor: pointer;
     position: absolute;
-    width: 100%;
     align-self: flex-end;
     text-align: center;
     margin-bottom: 25px;
