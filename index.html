@@ -10,10 +10,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>MairwunNx</title>
-    <meta name="description" content="">
+    <meta name="description" content>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./styles/index.css">
     <script src="https://kit.fontawesome.com/4c05a534fd.js"></script>
+    <link href="./SourceFiles/styles/index.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
 </head>
@@ -21,17 +21,19 @@
 <body>
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+    <![endif]-->
     <div class="acrylic">
-        <img class="avatar" src="./static/mairw.svg">
-        <label class="nickname">MairwunNx</label>
-        <i onclick="scrollPage()" class="material-icons bottom-arrow">
+        <div class="acrtylic-center-content">
+            <img class="avatar" src="./Resources/mairw.svg">
+            <label class="nickname">MairwunNx</label>
+        </div>
+        <i id="bottom-button" class="material-icons bottom-arrow">
             keyboard_arrow_down
         </i>
     </div>
-    <div class="SecondDiv" style="height: 100vh;background-color: yellow;">
+    <div id="description" class="SecondDiv" style="height: 100vh;background-color: yellow;">
     </div>
-    <script src="./index.js" async defer></script>
+    <script src="./SourceFiles/js/index.js" async defer></script>
 </body>
 
 </html>
