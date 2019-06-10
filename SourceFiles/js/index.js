@@ -1,10 +1,14 @@
-document.addEventListener('DOMContentLoaded', function () {
-    alert("Loaded")
-    let bottomArrow = document.getElementById('bottom-button')
+if (document.readyState !== 'loading') {
     bottomArrow.addEventListener('click', function () {
         scrollPage('description')
     })
-})
+} else {
+    document.addEventListener('DOMContentLoaded', function () {
+        bottomArrow.addEventListener('click', function () {
+            scrollPage('description')
+        })
+    });
+}
 
 let vh = window.innerHeight * 0.01
 document.documentElement.style.setProperty('--vh', `${vh}px`)
