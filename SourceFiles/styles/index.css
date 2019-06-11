@@ -46,28 +46,28 @@ html, body  {
 }
 
 .avatar {
-    height: 350px;
+    height: 24vw;
     opacity: 0.60;
     z-index: 0;
     display: flex;
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
-    -moz-filter: blur(8px);
-    -o-filter: blur(8px);
-    -ms-filter: blur(8px);
+    filter: blur(0.4vw);
+    -webkit-filter: blur(0.4vw);
+    -moz-filter: blur(0.4vw);
+    -o-filter: blur(0.4vw);
+    -ms-filter: blur(0.4vw);
     align-self: center;
-    padding-right: 80px;
+    padding-right: 6vw;
 }
 
 .nickname {
     color: rgb(255, 255, 255);
     font-family: 'Roboto Mono', monospace;
-    font-size: 70px;
+    font-size: 6vw;
     position: relative;
     align-self: center;
     justify-self: center;
     display: flex;
-    padding-left: 80px;
+    padding-left: 6vw;
 }
 
 .bottom-arrow {
@@ -83,74 +83,4 @@ html, body  {
     align-self: flex-end;
     text-align: center;
     margin-bottom: 25px;
-}
-
-@media (min-width: 865px) and (max-width: 1055px) {
-    .avatar {
-        height: 230px;
-        padding-right: 40px;
-    }
-    .nickname {
-        font-size: 60px;
-        padding-left: 40px;
-    }
-}
-
-@media (min-width: 650px) and (max-width: 865px) {
-    .avatar {
-        height: 195px;
-        padding-right: 40px;
-    }
-    .nickname {
-        font-size: 50px;
-        padding-left: 40px;
-    }
-}
-
-@media (min-width: 460px) and (max-width: 650px) {
-    .avatar {
-        filter: blur(5px);
-        -webkit-filter: blur(5px);
-        -moz-filter: blur(5px);
-        -o-filter: blur(5px);
-        -ms-filter: blur(5px);
-        height: 130px;
-        padding-right: 20px;
-    }
-    .nickname { 
-        font-size: 35px;
-        padding-left: 20px;
-    }
-}
-
-@media (min-width: 400px) and (max-width: 460px) {
-    .avatar {
-        filter: blur(3px);
-        -webkit-filter: blur(3px);
-        -moz-filter: blur(3px);
-        -o-filter: blur(3px);
-        -ms-filter: blur(3px);
-        height: 100px;
-        padding-right: 20px;
-    }
-    .nickname {
-        font-size: 29px;
-        padding-left: 20px;
-    }
-}
-
-@media (min-width: 300px) and (max-width: 400px) {
-    .avatar {
-        filter: blur(2px);
-        -webkit-filter: blur(2px);
-        -moz-filter: blur(2px);
-        -o-filter: blur(2px);
-        -ms-filter: blur(2px);
-        height: 70px;
-        padding-right: 10px;
-    }
-    .nickname {
-        font-size: 29px;
-        padding-left: 10px;
-    }
 }
