@@ -88,7 +88,7 @@ html, body  {
 .mairwunnx-summary {
     display: flex;
     flex-direction: column;
-    height: calc(var(--vh, 1vh) * 100);
+    min-height: 100vh;
     overflow: hidden;
     justify-content: baseline;
     background-color: rgb(40, 40, 40);
@@ -130,4 +130,16 @@ html, body  {
 ul li {
     margin-bottom: 25px;
     padding-left: 10px;
+}
+
+@media (min-width: 1400px) {
+    .avatar {
+        height: 260px;
+        padding-right: 60px;
+    }
+
+    .nickname {
+        padding-left: 60px;
+        font-size: 75px;
+    }
 }

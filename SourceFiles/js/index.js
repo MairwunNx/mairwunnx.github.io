@@ -26,15 +26,15 @@ function scrollPage(div) {
     let target = document.getElementById(div)
     target.scrollIntoView({
         behavior: "smooth",
-        block: "end",
+        block: "start",
         inline: "nearest"
     })
 }
 
 function processVisibilityUlSwitchers() {
     let aboutCheckBox = document.getElementById('about-checkbox')
-    aboutCheckBox.checked = false
     let aboutList = document.getElementById('about-list')
+    aboutCheckBox.checked = true
     aboutCheckBox.addEventListener('click', function () {
         if (aboutCheckBox.checked) {
             aboutCheckBox.checked = false
