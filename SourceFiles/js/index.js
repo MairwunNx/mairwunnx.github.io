@@ -36,8 +36,11 @@ function processVisibilityUlSwitchers() {
     let aboutList = document.getElementById('about-list')
     let skillsCheckBox = document.getElementById('skills-checkbox')
     let skillsList = document.getElementById('skills-list')
+    let funFactsCheckBox = document.getElementById('fun-facts-checkbox')
+    let funFactsList = document.getElementById('fun-facts-list')
     aboutCheckBox.checked = true
     skillsCheckBox.checked = false
+    funFactsCheckBox.checked = false
     aboutCheckBox.addEventListener('click', function () {
         if (aboutCheckBox.checked) {
             aboutCheckBox.checked = false
@@ -58,6 +61,17 @@ function processVisibilityUlSwitchers() {
             skillsCheckBox.checked = true
             skillsCheckBox.innerHTML = "/ MairwunNx's Skills"
             skillsList.style = "display: block;"
+        }
+    })
+    funFactsCheckBox.addEventListener('click', function () {
+        if (funFactsCheckBox.checked) {
+            funFactsCheckBox.checked = false
+            funFactsCheckBox.innerHTML = "\\ MairwunNx's Fun Facts"
+            funFactsList.style = "display: none;"
+        } else {
+            funFactsCheckBox.checked = true
+            funFactsCheckBox.innerHTML = "/ MairwunNx's Fun Facts"
+            funFactsList.style = "display: block;"
         }
     })
 }

@@ -102,7 +102,7 @@ html, body  {
     padding-top: 35px;
     font-size: 35px;
     font-family: 'Roboto Mono', monospace;
-    color: rgb(199, 224, 255 );
+    color: rgb(199, 224, 255);
 }
 
 .summary-block {
@@ -131,6 +131,10 @@ ul li {
     margin-bottom: 25px;
     padding-left: 10px;
     margin-right: 30px;
+}
+
+a {
+    color: rgb(121, 184, 255);
 }
 
 @media (min-width: 1250px) {
