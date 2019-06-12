@@ -1,15 +1,17 @@
 if (document.readyState !== 'loading') {
     let bottomArrow = document.getElementById('bottom-button')
     bottomArrow.addEventListener('click', function () {
-        scrollPage('description')
+        scrollPage('mairwunnx-summary')
     })
+    processVisibilityUlSwitchers()
 } else {
     let bottomArrow = document.getElementById('bottom-button')
     document.addEventListener('DOMContentLoaded', function () {
         bottomArrow.addEventListener('click', function () {
-            scrollPage('description')
+            scrollPage('mairwunnx-summary')
         })
     });
+    processVisibilityUlSwitchers()
 }
 
 let vh = window.innerHeight * 0.01
@@ -26,5 +28,22 @@ function scrollPage(div) {
         behavior: "smooth",
         block: "end",
         inline: "nearest"
+    })
+}
+
+function processVisibilityUlSwitchers() {
+    let aboutCheckBox = document.getElementById('about-checkbox')
+    aboutCheckBox.checked = false
+    let aboutList = document.getElementById('about-list')
+    aboutCheckBox.addEventListener('click', function () {
+        if (aboutCheckBox.checked) {
+            aboutCheckBox.checked = false
+            aboutCheckBox.innerHTML = "\\ About MairwunNx"
+            aboutList.style = "display: none;"
+        } else {
+            aboutCheckBox.checked = true
+            aboutCheckBox.innerHTML = "/ About MairwunNx"
+            aboutList.style = "display: block;"
+        }
     })
 }

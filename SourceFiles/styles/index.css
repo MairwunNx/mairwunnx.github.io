@@ -84,3 +84,50 @@ html, body  {
     user-select: none;
     cursor: pointer;
 }
+
+.mairwunnx-summary {
+    display: flex;
+    flex-direction: column;
+    height: calc(var(--vh, 1vh) * 100);
+    overflow: hidden;
+    justify-content: baseline;
+    background-color: rgb(40, 40, 40);
+}
+
+.summary-caption {
+    position: relative;
+    display: flex;
+    height: min-content;
+    padding-left: 40px;
+    padding-top: 35px;
+    font-size: 35px;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(199, 224, 255 );
+}
+
+.about-mairwunnx {
+    padding-left: 60px;
+}
+
+.about-mairwunnx-caption {
+    color: rgb(121, 184, 255);
+    font-size: 26px;
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 10px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+.about-list {
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
+ul li {
+    margin-bottom: 25px;
+    padding-left: 10px;
+}
