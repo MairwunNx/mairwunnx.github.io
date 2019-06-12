@@ -98,8 +98,9 @@ html, body  {
     position: relative;
     display: flex;
     height: min-content;
-    padding-left: 40px;
     padding-top: 35px;
+    padding-right: 20px;
+    padding-left: 40px;
     font-size: 35px;
     font-family: 'Roboto Mono', monospace;
     color: rgb(199, 224, 255);
@@ -110,13 +111,14 @@ html, body  {
 }
 
 .caption {
-    color: rgb(121, 184, 255);
+    padding-top: 10px;
+    padding-right: 20px;
     font-size: 26px;
     font-family: 'Roboto Mono', monospace;
-    padding-top: 10px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
+    color: rgb(121, 184, 255);
     user-select: none;
     cursor: pointer;
 }
@@ -128,9 +130,9 @@ html, body  {
 }
 
 ul li {
-    margin-bottom: 25px;
     padding-left: 10px;
     margin-right: 30px;
+    margin-bottom: 25px;
 }
 
 a {
@@ -138,13 +140,14 @@ a {
 }
 
 code-block {
-    background-color: rgb(30, 30, 30);
-    border-radius: 5px;
-    color: rgb(187, 134, 192);
-    padding-right: 6px;
-    padding-left: 6px;
-    padding-bottom: 3px;
     padding-top: 3px;
+    padding-right: 6px;
+    padding-bottom: 3px;
+    padding-left: 6px;
+    border-radius: 5px;
+    line-height: 30px;
+    color: rgb(187, 134, 192);
+    background-color: rgb(30, 30, 30);
     cursor: pointer;
 }
 
@@ -175,6 +178,18 @@ code-block {
 
     .custom-list {
         font-size: 2.571vw;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 800px) {
+    .bottom-arrow {
+        font-size: 8.125vw!important;
+    }
+}
+
+@media (max-width: 699px) {
+    .bottom-arrow {
+        font-size: 58px!important;
     }
 }
 
