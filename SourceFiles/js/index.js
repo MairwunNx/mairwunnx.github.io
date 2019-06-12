@@ -34,13 +34,21 @@ function scrollPage(div) {
 function processVisibilityUlSwitchers() {
     let aboutCheckBox = document.getElementById('about-checkbox')
     let aboutList = document.getElementById('about-list')
+
     let skillsCheckBox = document.getElementById('skills-checkbox')
     let skillsList = document.getElementById('skills-list')
+
     let funFactsCheckBox = document.getElementById('fun-facts-checkbox')
     let funFactsList = document.getElementById('fun-facts-list')
+
+    let contactCheckBox = document.getElementById('contact-checkbox')
+    let contactList = document.getElementById('contact-list')
+
     aboutCheckBox.checked = true
     skillsCheckBox.checked = false
     funFactsCheckBox.checked = false
+    contactCheckBox.checked = false
+
     aboutCheckBox.addEventListener('click', function () {
         if (aboutCheckBox.checked) {
             aboutCheckBox.checked = false
@@ -72,6 +80,17 @@ function processVisibilityUlSwitchers() {
             funFactsCheckBox.checked = true
             funFactsCheckBox.innerHTML = "/ MairwunNx's Fun Facts"
             funFactsList.style = "display: block;"
+        }
+    })
+    contactCheckBox.addEventListener('click', function () {
+        if (contactCheckBox.checked) {
+            contactCheckBox.checked = false
+            contactCheckBox.innerHTML = "\\ Contact with Me"
+            contactList.style = "display: none;"
+        } else {
+            contactCheckBox.checked = true
+            contactCheckBox.innerHTML = "/ Contact with Me"
+            contactList.style = "display: block;"
         }
     })
 }
