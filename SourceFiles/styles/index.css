@@ -105,11 +105,11 @@ html, body  {
     color: rgb(199, 224, 255 );
 }
 
-.about-mairwunnx {
+.summary-block {
     padding-left: 60px;
 }
 
-.about-mairwunnx-caption {
+.caption {
     color: rgb(121, 184, 255);
     font-size: 26px;
     font-family: 'Roboto Mono', monospace;
@@ -121,7 +121,7 @@ html, body  {
     cursor: pointer;
 }
 
-.about-list {
+.custom-list {
     font-size: 18px;
     font-family: 'Roboto Mono', monospace;
     color: white;
@@ -154,7 +154,7 @@ ul li {
         font-size: 3.714vw;
     }
 
-    .about-list {
+    .custom-list {
         font-size: 2.571vw;
     }
 }
@@ -168,7 +168,7 @@ ul li {
         font-size: 21px;
     }
 
-    .about-list {
+    .custom-list {
         font-size: 15px;
     }
 }
