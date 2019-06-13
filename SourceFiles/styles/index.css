@@ -9,7 +9,10 @@ html, body  {
 .acrylic {
     display: flex;
     height: calc(var(--vh, 1vh) * 100);
-    max-height: 100vh;
+    max-height: -moz-available;
+    max-height: -webkit-fill-available;
+    min-height: -moz-available;
+    min-height: -webkit-fill-available;
     overflow: auto;
     justify-content: baseline;
     background-color: rgb(26, 26, 26);
