@@ -1,10 +1,15 @@
 if (document.readyState !== 'loading') {
+    let vh = window.innerHeight * 0.01
+    document.documentElement.style.setProperty('--vh', `${vh}px`)
     let bottomArrow = document.getElementById('bottom-button')
     bottomArrow.addEventListener('click', function () {
         scrollPage('mairwunnx-summary')
     })
     processVisibilityUlSwitchers()
+    addResizeListener()
 } else {
+    let vh = window.innerHeight * 0.01
+    document.documentElement.style.setProperty('--vh', `${vh}px`)
     let bottomArrow = document.getElementById('bottom-button')
     document.addEventListener('DOMContentLoaded', function () {
         bottomArrow.addEventListener('click', function () {
@@ -12,15 +17,15 @@ if (document.readyState !== 'loading') {
         })
     });
     processVisibilityUlSwitchers()
+    addResizeListener()
 }
 
-let vh = window.innerHeight * 0.01
-document.documentElement.style.setProperty('--vh', `${vh}px`)
-
-window.addEventListener('resize', () => {
-    let vh = window.innerHeight * 0.01
-    document.documentElement.style.setProperty('--vh', `${vh}px`)
-});
+function addResizeListener() {
+    window.addEventListener('resize', () => {
+        let vh = window.innerHeight * 0.01
+        document.documentElement.style.setProperty('--vh', `${vh}px`)
+    });
+}
 
 function scrollPage(div) {
     let target = document.getElementById(div)
