@@ -45,6 +45,12 @@ html, body  {
     justify-content: center;
 }
 
+.acrylic-content {
+    display: flex;
+    height: min-content;
+    align-self: center;
+}
+
 .avatar {
     z-index: 0;
     display: flex;
@@ -73,8 +79,9 @@ html, body  {
 .bottom-arrow {
     position: absolute;
     z-index: 3;
+    display: flex!important;
     align-self: flex-end;
-    margin-bottom: 25px;
+    padding-bottom: 30px;
     font-size: 65px!important;
     text-align: center;
     color: white;
