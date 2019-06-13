@@ -67,6 +67,10 @@ html, body  {
     -moz-filter: blur(0.4vw);
     -o-filter: blur(0.4vw);
     -ms-filter: blur(0.4vw);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .nickname {
@@ -142,6 +146,7 @@ html, body  {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
+    user-select: none;
     color: rgb(121, 184, 255);
     user-select: none;
     cursor: pointer;
