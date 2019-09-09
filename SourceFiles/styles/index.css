@@ -188,6 +188,19 @@ code-block {
     display: none;
 }
 
+.footnote-block {
+    padding-left: 60px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 10px;
+}
+
+.footnote-text {
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
 @media (min-width: 1250px) {
     .avatar {
         height: 299.55px;
