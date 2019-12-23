@@ -10,6 +10,10 @@ html, body  {
     background-color: #FBFAF8;
 }
 
+p {
+    word-break: break-word;
+}
+
 .header-text {
     color: #575757;
     text-transform: uppercase;
