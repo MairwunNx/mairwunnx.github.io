@@ -69,15 +69,6 @@ html, body  {
     padding-bottom: 75px;
 }
 
-.mairwunnx-summary {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    overflow: hidden;
-    justify-content: baseline;
-    background-color: rgb(40, 40, 40);
-}
-
 a {
     color: #454545;
 }
@@ -86,68 +77,57 @@ a {
     display: none;
 }
 
-.footnote-block {
-    padding-left: 60px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-right: 10px;
-}
-
-.footnote-text {
-    font-size: 18px;
-    font-family: 'Roboto Mono', monospace;
-    color: white;
-}
-
-@media (min-width: 1250px) {
-    .avatar {
-        height: 299.55px;
-        padding-right: 75px;
+@media (min-width: 500px) and (max-width: 662px) {
+    .header-text {
+        font-size: 65px;
     }
 
-    .nickname {
-        padding-left: 75px;
-        font-size: 75px;
+    .header-description {
+        font-size: 19px;
+    }
+
+    .about-info-header {
+        font-size: 30px;
+    }
+
+    .about-info {
+        font-size: 18px;
     }
 }
 
-@media (min-width: 571px) and (max-width: 700px) {
-    .summary-caption {
-        font-size: 5vw;
+@media (min-width: 450px) and (max-width: 499px) {
+    .header-text {
+        font-size: 44px;
     }
 
-    .about-mairwunnx-caption {
-        font-size: 3.714vw;
+    .header-description {
+        font-size: 17px;
     }
 
-    .custom-list {
-        font-size: 2.571vw;
-    }
-}
-
-@media (min-width: 700px) and (max-width: 800px) {
-    .bottom-arrow {
-        font-size: 8.125vw!important;
-    }
-}
-
-@media (max-width: 699px) {
-    .bottom-arrow {
-        font-size: 58px!important;
-    }
-}
-
-@media (max-width: 570px) {
-    .summary-caption {
-        font-size: 28px;
+    .about-info-header {
+        font-size: 27px;
     }
 
-    .about-mairwunnx-caption {
-        font-size: 21px;
-    }
-
-    .custom-list {
+    .about-info {
         font-size: 15px;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 449px) {
+    .header-text {
+        font-size: 35px;
+    }
+
+    .header-description {
+        font-size: 14px;
+    }
+
+    .about-info-header {
+        font-size: 20px;
+    }
+
+    .about-info {
+        font-size: 14px;
     }
 }
 
