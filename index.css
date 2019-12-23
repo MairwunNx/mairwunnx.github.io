@@ -1,5 +1,6 @@
 html, body  {
     margin: 0;
+    position: absolute;
     padding: 0;
     border: 0 none;
     scroll-behavior: smooth;
@@ -7,10 +8,6 @@ html, body  {
 
 .header-content {
     background-color: #FBFAF8;
-}
-
-p {
-    word-break: break-word;
 }
 
 .header-text {
