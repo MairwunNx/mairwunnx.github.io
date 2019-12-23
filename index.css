@@ -1,0 +1,179 @@
+html, body  {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    scroll-behavior: smooth;
+}
+
+.header-content {
+    background-color: #FBFAF8;
+}
+
+.header-text {
+    color: #575757;
+    text-transform: uppercase;
+    font-size: 75px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 150px;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin: 0;
+}
+
+.header-description {
+    color: #676767;
+    max-width: 550px;
+    font-size: 23px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 125px;
+    padding-top: 25px;
+    margin: 0;
+}
+
+.about-content-even {
+    background-color: #efeeec;
+}
+
+.about-content-odd {
+    background-color: #f6f5f3;
+}
+
+.about-info-header {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 75px;
+    margin: 0;
+    color: #575757;
+}
+
+.about-info {
+    margin: 0;
+    font-size: 75px;
+    font-weight: 400;
+    font-family: 'Fira Code', monospace;
+    color: #676767;
+    max-width: 550px;
+    font-size: 23px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 25px;
+    padding-bottom: 75px;
+}
+
+.mairwunnx-summary {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: hidden;
+    justify-content: baseline;
+    background-color: rgb(40, 40, 40);
+}
+
+a {
+    color: #454545;
+}
+
+.browsehappy {
+    display: none;
+}
+
+.footnote-block {
+    padding-left: 60px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 10px;
+}
+
+.footnote-text {
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
+@media (min-width: 1250px) {
+    .avatar {
+        height: 299.55px;
+        padding-right: 75px;
+    }
+
+    .nickname {
+        padding-left: 75px;
+        font-size: 75px;
+    }
+}
+
+@media (min-width: 571px) and (max-width: 700px) {
+    .summary-caption {
+        font-size: 5vw;
+    }
+
+    .about-mairwunnx-caption {
+        font-size: 3.714vw;
+    }
+
+    .custom-list {
+        font-size: 2.571vw;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 800px) {
+    .bottom-arrow {
+        font-size: 8.125vw!important;
+    }
+}
+
+@media (max-width: 699px) {
+    .bottom-arrow {
+        font-size: 58px!important;
+    }
+}
+
+@media (max-width: 570px) {
+    .summary-caption {
+        font-size: 28px;
+    }
+
+    .about-mairwunnx-caption {
+        font-size: 21px;
+    }
+
+    .custom-list {
+        font-size: 15px;
+    }
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .browsehappy {
+        display: flex;
+        flex-direction: column;
+        height: 70px;
+        padding: 40px 10px 10px 10px;
+        padding-left: 15px;
+        font-size: 20px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: white;
+        background-color: rgb(30, 30, 30);
+    }
+
+    .not-support-ie {
+        display: flex;
+        padding-left: 70px;
+        line-height: 7px;
+    }
+
+    .update-browser {
+        display: flex;
+        padding-left: 70px;
+        line-height: 7px;
+    }
+}

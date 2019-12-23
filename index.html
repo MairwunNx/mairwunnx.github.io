@@ -9,12 +9,13 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>MairwunNx</title>
+    <title>MairwunNx (Pavel Erokhin)</title>
     <meta name="description">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="./SourceFiles/styles/index.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="./index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700&display=swap&subset=cyrillic"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.207/distr/fira_code.css" rel="stylesheet">
 </head>
 
 <body>
@@ -27,145 +28,88 @@
             <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a>.
         </p>
     </div>
-    <div class="acrylic">
-        <div class="acrtylic-center-content">
-            <div class="acrylic-content">
-                <img class="avatar" src="./Resources/mairw.svg">
-                <p class="nickname">MairwunNx</p>
-            </div>
-            <i id="bottom-button" class="material-icons bottom-arrow">
-                keyboard_arrow_down
-            </i>
-        </div>
+    <div class="header-content">
+        <p class="header-text">Pavel Erokhin</p>
+        <p class="header-description">
+            I created this site specifically so that everyone can learn more information about me.
+            You can also find contact information to contact me.
+        </p>
     </div>
-    <div id="mairwunnx-summary" class="mairwunnx-summary">
-        <p class="summary-caption">🎉 MairwunNx's home page.</p>
-        <div class="summary-objects">
-            <div class="summary-block">
-                <p type="checkbox" id="about-checkbox" class="caption">
-                    / About MairwunNx
-                </p>
-                <ul id="about-list" class="list list-items custom-list">
-                    <li>Male, 17 years, born on 27 February 2002</li>
-                    <li>Reside in: Bryansk Citizenship: Russia, work permit at: Russia</li>
-                    <li>Software Engineer. C# (junior / middle)* and Kotlin JVM junior* developer</li>
-                    <li>User Experience and User Interface application designer</li>
-                    <li>Currently studying: Minecraft Forge API, UWP</li>
-                    <li>Languages: Russia — Native, English — Technical</li>
-                    <li>Known as: MairwunNx, Mairw, Nynxx, Pavel Erokhin</li>
-                </ul>
-            </div>
-            <div class="summary-block">
-                <p type="checkbox" id="skills-checkbox" class="caption">
-                    \ MairwunNx's Skills
-                </p>
-                <ul id="skills-list" class="list list-items custom-list" style="display: none;">
-                    <li>Programming languages: csharp, kotlin, java, javascript</li>
-                    <li>Frameworks \ Platforms: Vue.js, Node.js, Electron, Bootstrap</li>
-                    <li>C# Technologies: Universal Windows Platform, Windows Presentation Foundation, Windows Forms</li>
-                    <li>Java \ Kotlin JVM Technologies: JavaFx, TornadoFx</li>
-                    <li>Front end skills (in studying): HTML5, CSS and SCSS</li>
-                    <li>Good and confident git system skills, and with shell such as github</li>
-                    <li>Other skills: Minecraft Forge API, Project management, JavaFx-css</li>
-                    <li>Partially know: Windows API, Unity3D, Regex expressions</li>
-                    <li>Had little experience with: Telegram bots, GraphQL, Android app developming</li>
-                </ul>
-            </div>
-            <div class="summary-block">
-                <p type="checkbox" id="projects-checkbox" class="caption">
-                    \ MairwunNx's Projects
-                </p>
-                <ul id="projects-list" class="list list-items custom-list" style="display: none;">
-                    <li>
-                        <a class="link" href="https://github.com/MairwunNx/SacredUtils">
-                            SacredUtils
-                        </a>
-                        - Configuration utility for Sacred & Sacred Underworld with Material Design.
-                    </li>
-                    <li>
-                        <a class="link" href="https://github.com/MairwunNx/SacredMagician">
-                            SacredMagician
-                        </a>
-                        - Balance bin file editor for Sacred & SacredUnderworld on Kotlin JVM.
-                    </li>
-                    <li>
-                        <a class="link" href="https://github.com/MairwunNx/SacredLumina">
-                            SacredLumina
-                        </a>
-                        - Smart and fast hero start-pos editor for Sacred and Sacred Underworld.
-                    </li>
-                    <li>
-                        <a class="link" href="https://github.com/MairwunNx/MaterialDesign-WPF-Expander">
-                            MaterialDesign-WPF-Expander
-                        </a>
-                        - Material Design Expander realization for C# WPF.
-                    </li>
-                    <li>
-                        <a class="link" href="https://github.com/MairwunNx/AnotherStorm">
-                            Another Storm
-                        </a>
-                        - 😍 A cool dark theme for Telegram Desktop.
-                    </li>
-                    <li>
-                        <a class="link" href="https://github.com/ProjectEssentials">
-                            Project Essentials
-                        </a>
-                        - Project Essentials - minecraft command mod - adds commands for use in-game.
-                    </li>
-                </ul>
-            </div>
-            <div class="summary-block">
-                <p type="checkbox" id="fun-facts-checkbox" class="caption">
-                    \ MairwunNx's Fun Facts
-                </p>
-                <ul id="fun-facts-list" class="list list-items custom-list" style="display: none;">
-                    <li>I hate JavaScript code highlighting in WebStorm</li>
-                    <li>I hate the JavaScript language itself</li>
-                    <li>I despise javafx because of its slowness in ui rendering</li>
-                    <li>I consider Kotlin one of the ideal languages in the world</li>
-                    <li>I support absolute dictatorship in programming chats</li>
-                    <li>I love <a class="link" href="https://scootertechno.com/">Scooter</a> music, it's
-                        perfect for me for coding
-                    </li>
-                    <li>The best track for me from Scooter
-                        <a class="link" href="https://youtu.be/p5HVJdMGAMs">
-                            Scooter - The Only One
-                        </a>
-                    </li>
-                    <li>I like ASMR (Hand Move or Brushing), the best way to relax after a hard day</li>
-                    <li>My favorite game is Saints Row 3 and 4, this is just a fucking best game</li>
-                    <li>Hello, it's me,
-                        <a class="link" href="https://vk.com/doc471464980_506781044">photo 1</a>
-                        <a class="link" href="https://vk.com/doc471464980_506781477">photo 2</a>
-                        <a class="link" href="https://vk.com/doc471464980_506781556">photo 3</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="summary-block">
-                <p type="checkbox" id="contact-checkbox" class="caption">
-                    \ Contact with Me
-                </p>
-                <ul id="contact-list" class="list list-items custom-list" style="display: none;">
-                    <li>
-                        <code-block><a class="code-link" href="https://github.com/MairwunNx/">GitHub</a></code-block>,
-                        <code-block><a class="code-link" href="https://vk.com/MairwunNx/">VKontakte</a></code-block>,
-                        <code-block><a class="code-link" href="https://t.me/MairwunNx/">Telegram</a></code-block>
-                    </li>
-                    <li>Email:
-                        <code-block>
-                            <a href="mailto:MairwunNx@gmail.com" class="code-link">MairwunNx@gmail.com</a>
-                        </code-block>
-                    </li>
-                </ul>
-            </div>
-            <div class="footnote-block">
-                <p class="footnote-text">* - Relative developer level, according <a
-                        href="https://sijinjoseph.com/programmer-competency-matrix/">Programmer Competency Matrix</a>.
-                </p>
-            </div>
-        </div>
+    <div class="about-content-even">
+        <p class="about-info-header">
+            Basic information
+        </p>
+        <p class="about-info">
+            A regular guy. Male, 17 years, born on February 27, 2002. Programmer, Software Engineer. C# & Kotlin dev.
+            Reside in: Bryansk. Citizenship: Russia. Currently single.
+            <br><br>
+            I also addict to "user interface" and "user experience" design for desktop applications.
+            <br><br>
+            And also known as: MairwunNx, ShadowedMairw, Mairw, Nynxx, Pavel Erokhin.
+            <br><br>
+            Currently studying: Flutter, SQLite, PostgreSQL, Kotlin, C#.
+            <br><br>
+            Language skills: Russia, English (Writing only. Technical. I not speak English well).
+        </p>
     </div>
-    <script src="./SourceFiles/js/index.js" async defer></script>
+    <div class="about-content-odd">
+        <p class="about-info-header">
+            My skills
+        </p>
+        <p class="about-info">
+            Programming languages: с#, kotlin, java, javascript.
+            <br><br>
+            C# Technologies: Universal Windows Platform, Windows Presentation Foundation, Windows Forms.
+            <br><br>
+            Java \ Kotlin JVM Technologies: JavaFx, TornadoFx.
+            <br><br>
+            Good and confident git system skills, and with shell such as github.
+            <br><br>
+            Frameworks \ Platforms: Vue.js, Node.js, Electron, Bootstrap;
+            Front end skills (in studying): HTML5, CSS and SCSS.
+            <br><br>
+            Had little experience with: Telegram bots, GraphQL, Dart language, Android apps, Windows API, Unity3D, Regex
+            expressions.
+        </p>
+    </div>
+    <div class="about-content-even">
+        <p class="about-info-header">
+            More about me
+        </p>
+        <p class="about-info">
+            I am a simple and modest person, partially asocial and uncommunicative. My political views is liberal. Views
+            on smoking and alcohol is negative. I'm also understand black humor.
+            <br><br>
+            I like drink coffee. I like listen to house (and many subgenres of house) music. I like to dress simply and
+            do not like clothes of famous brands. I like rainy and
+            foggy weather. I love long and medium long hair and strange hairstyles.
+            <br><br>
+            My appearance: some people think I look beautiful in appearance, but I don’t think so, so speaking about
+            myself, I’m
+            not so handsome.
+            <br><br>
+            <a class="link" href="https://sun9-37.userapi.com/c857228/v857228157/2890c/QHQwntoKqzo.jpg">It's me 😉</a>
+        </p>
+    </div>
+    <div class="about-content-odd">
+        <p class="about-info-header">
+            Contact
+        </p>
+        <p class="about-info">
+            You can find me on:
+            <br><br>
+            VKontakte: (<a class="link" href="https://vk.com/mairwunnx">@MairwunNx</a>)
+            <br>
+            Telegram: (<a class="link" href="https://t.me/mairwunnx">@MairwunNx</a>)
+            <br>
+            GitHub: (<a class="link" href="https://github.com/MairwunNx/">@MairwunNx</a>)
+            <br>
+            Email: (<a class="link" href="mailto:MairwunNx@gmail.com">MairwunNx@gmail.com</a>)
+            <br>
+            Or through mobile phone: (<a class="link" href="https://en.wikipedia.org/wiki/Random.org">+X960551XXXX</a>)
+            <br>
+            Or in real life: (<a class="link" href="https://en.wikipedia.org/wiki/Real_life">Pavel Erokhin</a>)
+        </p>
+    </div>
 </body>
-
 </html>
