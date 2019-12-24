@@ -131,6 +131,24 @@ a {
     }
 }
 
+@media (min-width: 300px) and (max-width: 349px) {
+    .header-text {
+        font-size: 25px;
+    }
+
+    .header-description {
+        font-size: 13px;
+    }
+
+    .about-info-header {
+        font-size: 16px;
+    }
+
+    .about-info {
+        font-size: 12px;
+    }
+}
+
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
     .browsehappy {
         display: flex;
